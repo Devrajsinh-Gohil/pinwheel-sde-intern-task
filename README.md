@@ -4,7 +4,7 @@
 ---
 ### Task 1: 
 
-#### 1. **Node Types and Properties**
+#### 1. **Entities and Properties**
 
 Each node represents a key entity with properties relevant to cybersecurity.
 
@@ -22,7 +22,7 @@ Each node represents a key entity with properties relevant to cybersecurity.
 | **Tool**          | Tool name, purpose (e.g., scan, exploit), version, effectiveness                                      |
 
 
-#### 2. **Define Relationships**
+#### 2. **Relationships**
 
 Each relationship type connects nodes to establish insights into the network, host vulnerabilities, potential exploits, and other security details.
 
@@ -42,5 +42,10 @@ Each relationship type connects nodes to establish insights into the network, ho
 | **Host has File**                  | Indicates that a file is stored or found on a specific host.                                         |
 | **Service needs Credentials**      | Connects a service to credentials required to access or use it.                                      |
 | **Credentials give access to Host** | Links credentials to a host, indicating that they grant access to it.                               |
+
+#### 3. **Graph**
+
+![er](https://github.com/user-attachments/assets/1e59e08b-8424-4f87-969b-744e8378335b)
+
 
 ---
